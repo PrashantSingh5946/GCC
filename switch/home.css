@@ -1,0 +1,55 @@
+.container {
+    text-align: center;
+    position: relative;
+    height: 100%;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    overflow: auto;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#routers{
+    background-color: none;
+    color: white;
+
+}
+
+#switches{
+    color: white;
+    background-color: none;
+
+}
+
+
+li a {border-radius:1px;
+      margin: 3px;
+      display: block;
+      color:black;
+      padding: 8px 6px;
+     text-decoration: none;
+     background-color:  white;
+     width:12rem;
+     list-style: none;
+     list-style-type: none;
+
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color:  #4CAF50;
+    color: white;
+}
+
+.division{
+
+  padding: 20px;
+  margin: 20px;
+   background: linear-gradient(to bottom, rgba(0, 1, 52, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%);
+  transition: opacity 0.1s, -webkit-transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+  transition: opacity 0.1s, transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+  transition: opacity 0.1s, transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25), -webkit-transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  
+  float:left;
+}
